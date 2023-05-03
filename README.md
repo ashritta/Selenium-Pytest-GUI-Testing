@@ -1,0 +1,5 @@
+# Selenium-Pytest-GUI-Testing
+
+Assignment for Programming in Python I:
+Visit the following Website: https://formy-project.herokuapp.com/form
+Write test cases for all the features available in the website using Selenium with Pytest.
