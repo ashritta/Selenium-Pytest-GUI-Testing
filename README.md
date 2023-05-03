@@ -10,7 +10,7 @@ Write test cases for all the features available in the website using Selenium wi
 <b>Selenium automated testing of all form features completed:</b>
 <br>
 <img src="https://user-images.githubusercontent.com/63718042/235958106-0d0a17fe-637a-4331-803b-2d2980115d21.png" width=50% align=left>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <b>Pytest Results:</b>
 <br>
