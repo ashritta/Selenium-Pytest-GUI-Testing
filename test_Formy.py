@@ -2,12 +2,14 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
-import time 
+import time
+
 
 def testSeleniumFormy():
     try:
-        service = ChromeService(executable_path=ChromeDriverManager().install())
-        driver = webdriver.Chrome (service=service)
+        service = ChromeService(
+            executable_path=ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=service)
         driver.maximize_window()
         driver.get("https://formy-project.herokuapp.com/form")
 
@@ -54,7 +56,7 @@ def testSeleniumFormy():
         submitForm = driver.find_element(By.LINK_TEXT, 'Submit')
         submitForm.click()
 
-        driver.save_screenshot("testScreenshot.png")
+        driver.save_screenshot("testFormyScreenshot.png")
 
     except:
         print("Error! Page had issues loading...")
